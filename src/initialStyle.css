@@ -1,0 +1,81 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    height: 100vh;
+    width: 100px;
+    padding: 20px;
+
+}
+
+.navigation ul li{
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+
+}
+
+.iconSizes{
+    height: 30px;
+    width: auto;
+}
+.App{
+    display: flex;
+    
+}
+.homeFill{
+    width: 100%;
+    
+}
+.homeFill2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));;
+    padding: 20px 50px;
+    color: #ffffff;
+
+}
+.homeTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.homeTop input{
+    border: none;
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.homeFill2 button{
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #00D118;
+}
+.homeMiddle h2{
+    margin: 20px 0px;
+}
+.homeMiddle p{
+    margin: 20px 0px;
+
+}
+
+
